@@ -6,7 +6,7 @@
 	<groupId>com.cloud</groupId>
 	<artifactId>test</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>pom</packaging>
 
 	<name>test</name>
 	<description>Demo project for Spring Cloud</description>

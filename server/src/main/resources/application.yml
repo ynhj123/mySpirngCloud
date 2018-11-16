@@ -1,14 +1,21 @@
+#高可用
+spring:
+  profiles:
+    #active: server1
+    active: server2
+#单启动
 server:
   port: 8761
 eureka:
   instance:
     hostname: localhost
   client:
-    register-with-eureka: false
-    fetch-registry: false
+    #register-with-eureka: false
+    #fetch-registry: false
     service-url:
       defaultZone:
          http://${eureka.instance.hostname}:${server.port}/eureka/
+
 
 
 
