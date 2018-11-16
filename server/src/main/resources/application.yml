@@ -1,8 +1,9 @@
 #高可用
 spring:
   profiles:
-    #active: server1
-    active: server2
+    active: server1
+
+    #active: server2
 #单启动
 #server:
  # port: 8761
