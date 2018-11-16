@@ -6,6 +6,12 @@ server:
 eureka:
   instance:
     hostname: server2
+    #续约时间
+    lease-renewal-interval-in-seconds: 30
+    #失效时间
+    lease-expiration-duration-in-seconds: 90
+    #改名
+    instance-id: ${spring.application.name}:${server.port}
   client:
     service-url:
       defaultZone:

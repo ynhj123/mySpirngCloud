@@ -6,6 +6,8 @@ server:
 
 #高可用
 eureka:
+  instance:
+    instance-id: ${spring.application.name}:${server.port}
   client:
     service-url:
        defaultZone:

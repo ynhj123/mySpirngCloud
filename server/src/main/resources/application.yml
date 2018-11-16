@@ -2,7 +2,6 @@
 spring:
   profiles:
     active: server1
-
     #active: server2
 #单启动
 #server:
